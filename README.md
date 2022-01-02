@@ -13,7 +13,7 @@ cd kittygram2plus
 Cоздать и активировать виртуальное окружение:
 
 ```
-python -m venv env
+python -m venv venv
 ```
 
 ```
@@ -33,13 +33,13 @@ pip install -r requirements.txt
 Выполнить миграции:
 
 ```
-python3 manage.py migrate
+python manage.py migrate
 ```
 
 Запустить веб-сервер:
 
 ```
-python3 manage.py runserver
+python manage.py runserver
 ```
 создайте через API несколько пользователей:
 ````
