@@ -1,4 +1,4 @@
-from rest_framework import PageNumberPagination
+from rest_framework.pagination import PageNumberPagination
 
 
 class CatsPagination(PageNumberPagination):
