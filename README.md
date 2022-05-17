@@ -49,8 +49,10 @@ python manage.py runserver
     "password": "password1"
 }
 ``````
-отправьте POST-запрос на эндпоинт /auth/jwt/create/, передав действующий логин и пароль в полях username и password.
-API вернёт JWT-токен в поле access.можно выбрать соответствующий тип авторизации во вкладке Authorization и указать JWT-токен
+отправьте POST-запрос на эндпоинт /auth/jwt/create/,
+передав действующий логин и пароль в полях username и password.
+API вернёт JWT-токен в поле access.можно выбрать соответствующий
+тип авторизации во вкладке Authorization и указать JWT-токен
 `````
 добавьте котиков в базу
 `````
