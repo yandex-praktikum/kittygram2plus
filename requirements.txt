@@ -1,5 +1,5 @@
-Django==3.2.3
-djangorestframework==3.12.4
+Django==5.1.1
+djangorestframework==3.15.2
 PyJWT==2.1.0
-djangorestframework-simplejwt==4.8.0
-djoser==2.1.0
+djangorestframework-simplejwt==5.3.1
+djoser==2.2.3
